@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background: teal;
+  color: white;
+}
+
+.results {
+    background: teal;
+    color: white;
+}
+
+.number {
+  width: 50px;
+}
+
+.results {
+  margin: 40px 100px
+}
+
+h1 {
+  text-align: center;
+}
+
+.stateboxes {
+padding: 10px;
+display: inline-block;
+}
+
+body {
+  background-image: url("./images/background2.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  min-height: 100vh;
+  height: 100%;
+}
+
